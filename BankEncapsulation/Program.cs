@@ -1,4 +1,5 @@
-﻿using System.Diagnostics;
+﻿using System.ComponentModel.Design;
+using System.Diagnostics;
 
 namespace BankEncapsulation
 {
@@ -6,33 +7,37 @@ namespace BankEncapsulation
     {
         static void Main(string[] args)
         {
-            BankAccount ba = new BankAccount();
+            BankAccount account = new BankAccount();
+            bool keepDepositing = true;
 
-            Console.WriteLine("How much currency would you like to deposit?"); 
+            while (keepDepositing)
+            {
+                Console.WriteLine("How much currency would you like to deposit?");
 
-            double amountToDeposit = double.Parse(Console.ReadLine());
+                double amountToDeposit;
 
-            ba.Deposit(amountToDeposit);
-
-            double userBalance = ba.GetBalance();
-
-            Console.WriteLine($"You have added {userBalance:c} to your account.");
-
-            
-                Console.WriteLine("Would you like to make another deposit? type y for yes or n for no.");
-
-                string input = Console.ReadLine();
-
-                if (input.ToLower() == "y")
+                while (!double.TryParse(Console.ReadLine(), out amountToDeposit) || amountToDeposit <= 0)
                 {
-                    Process.Start(Environment.ProcessPath);
+                    Console.WriteLine("Invalid input. Please enter a positive number:");
                 }
 
-                else
-            {
-                Console.WriteLine("Thank you, come again soon!");
+                    account.Deposit(amountToDeposit);
+
+                Console.WriteLine($"You have added {amountToDeposit:C} to your account.");
+                Console.WriteLine($"Current Balance: {account.GetBalance():C}");
+
+                Console.WriteLine("Would you like to make another deposit? Type 'y' for yes or 'n' for no:");
+                string input = Console.ReadLine().ToLower();
+
+                if (input != "y")
+                {
+                    keepDepositing = false;
+                    Console.WriteLine("Thank you, come again soon!");
+                }
             }
-           
         }
+
+
     }
 }
+

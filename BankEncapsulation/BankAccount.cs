@@ -10,7 +10,7 @@ namespace BankEncapsulation
     {
         private double _balance; 
     
-        public double currentBalance 
+        public double CurrentBalance 
         { 
             get { return _balance;}
             private set {_balance = value;}
@@ -20,13 +20,13 @@ namespace BankEncapsulation
         {
             Console.WriteLine($"Adding to Account Balance {amount:C} Now");
 
-            currentBalance += amount;
+            CurrentBalance += amount;
 
         }
 
         public double GetBalance()
         {
-            return currentBalance;
+            return CurrentBalance;
         }
     }
 }

@@ -3,12 +3,12 @@
   "WorkspaceRootPath": "C:\\Users\\Kevin Clark\\repos\\BankEncapsulation\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{C9AA4433-8BA8-40A9-8339-52A36F388320}|BankEncapsulation\\BankEncapsulation.csproj|c:\\users\\kevin clark\\repos\\bankencapsulation\\bankencapsulation\\bankaccount.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{C9AA4433-8BA8-40A9-8339-52A36F388320}|BankEncapsulation\\BankEncapsulation.csproj|solutionrelative:bankencapsulation\\bankaccount.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{C9AA4433-8BA8-40A9-8339-52A36F388320}|BankEncapsulation\\BankEncapsulation.csproj|c:\\users\\kevin clark\\repos\\bankencapsulation\\bankencapsulation\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{C9AA4433-8BA8-40A9-8339-52A36F388320}|BankEncapsulation\\BankEncapsulation.csproj|solutionrelative:bankencapsulation\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C9AA4433-8BA8-40A9-8339-52A36F388320}|BankEncapsulation\\BankEncapsulation.csproj|c:\\users\\kevin clark\\repos\\bankencapsulation\\bankencapsulation\\bankaccount.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C9AA4433-8BA8-40A9-8339-52A36F388320}|BankEncapsulation\\BankEncapsulation.csproj|solutionrelative:bankencapsulation\\bankaccount.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{C9AA4433-8BA8-40A9-8339-52A36F388320}|BankEncapsulation\\BankEncapsulation.csproj|c:\\users\\kevin clark\\repos\\bankencapsulation\\bankencapsulation\\bankencapsulation.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
@@ -22,43 +22,42 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 2,
+          "SelectedChildIndex": 1,
           "Children": [
             {
               "$type": "Document",
               "DocumentIndex": 2,
-              "Title": "BankEncapsulation",
+              "Title": "BankEncapsulation.csproj",
               "DocumentMoniker": "C:\\Users\\Kevin Clark\\repos\\BankEncapsulation\\BankEncapsulation\\BankEncapsulation.csproj",
               "RelativeDocumentMoniker": "BankEncapsulation\\BankEncapsulation.csproj",
               "ToolTip": "C:\\Users\\Kevin Clark\\repos\\BankEncapsulation\\BankEncapsulation\\BankEncapsulation.csproj",
               "RelativeToolTip": "BankEncapsulation\\BankEncapsulation.csproj",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
-              "WhenOpened": "2025-05-31T02:15:56.006Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-05-31T02:15:56.006Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 0,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\Users\\Kevin Clark\\repos\\BankEncapsulation\\BankEncapsulation\\Program.cs",
               "RelativeDocumentMoniker": "BankEncapsulation\\Program.cs",
               "ToolTip": "C:\\Users\\Kevin Clark\\repos\\BankEncapsulation\\BankEncapsulation\\Program.cs",
               "RelativeToolTip": "BankEncapsulation\\Program.cs",
-              "ViewState": "AgIAAAMAAAAAAAAAAAAAABIAAABPAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACUAAAAJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-05-31T01:59:06.976Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 1,
               "Title": "BankAccount.cs",
               "DocumentMoniker": "C:\\Users\\Kevin Clark\\repos\\BankEncapsulation\\BankEncapsulation\\BankAccount.cs",
               "RelativeDocumentMoniker": "BankEncapsulation\\BankAccount.cs",
               "ToolTip": "C:\\Users\\Kevin Clark\\repos\\BankEncapsulation\\BankEncapsulation\\BankAccount.cs",
               "RelativeToolTip": "BankEncapsulation\\BankAccount.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAEAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAArAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-05-31T02:16:37.319Z",
               "EditorCaption": ""
